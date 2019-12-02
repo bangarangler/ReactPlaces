@@ -30,7 +30,7 @@
 }
 
 .form-control--invalid label,
-.form-contol--invalid p {
+.form-control--invalid p {
   color: red;
 }
 
