@@ -6,6 +6,8 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 App	src/App.js	/^const App = () => {$/;"	c
 Auth	src/user/pages/Auth.js	/^const Auth = () => {$/;"	c
+AuthContext	src/shared/context/auth-context.js	/^export const AuthContext = createContext({isLoggedIn: false, login: () => {}, logout: () => {}})$/;"	c
+AuthContext	src/shared/context/auth-context.js	/^export const AuthContext = createContext({isLoggedIn: false, login: () => {}, logout: () => {}})$/;"	v
 Blur	src/shared/components/FormElements/Input.js	/^        onBlur={touchHandler}$/;"	c
 Cancel	src/places/components/PlaceItem.js	/^        onCancel={cancelDeleteWarningHandler}$/;"	c
 Cancel	src/places/components/PlaceItem.js	/^        onCancel={closeMapHandler}$/;"	c
