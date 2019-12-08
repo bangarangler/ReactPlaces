@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	src/App.js	/^const App = () => {$/;"	c
+Auth	src/user/pages/Auth.js	/^const Auth = () => {$/;"	c
+Blur	src/shared/components/FormElements/Input.js	/^        onBlur={touchHandler}$/;"	c
+Cancel	src/places/components/PlaceItem.js	/^        onCancel={cancelDeleteWarningHandler}$/;"	c
+Cancel	src/places/components/PlaceItem.js	/^        onCancel={closeMapHandler}$/;"	c
+Change	src/shared/components/FormElements/Input.js	/^        onChange={changeHandler}$/;"	c
+Click	src/places/components/PlaceItem.js	/^            <Button danger onClick={confirmDeleteHandler}>$/;"	c
+Click	src/places/components/PlaceItem.js	/^            <Button danger onClick={showDeleteWarningHandler}>$/;"	c
+Click	src/places/components/PlaceItem.js	/^            <Button inverse onClick={cancelDeleteWarningHandler}>$/;"	c
+Click	src/places/components/PlaceItem.js	/^            <Button inverse onClick={openMapHandler}>$/;"	c
+Click	src/places/components/PlaceItem.js	/^        footer={<Button onClick={closeMapHandler}>CLOSE<\/Button>}>$/;"	c
+Click	src/shared/components/FormElements/Button.js	/^      onClick={props.onClick}$/;"	c
+Click	src/shared/components/Navigation/MainNavigation.js	/^          onClick={openDrawerHandler}>$/;"	c
+Click	src/shared/components/Navigation/MainNavigation.js	/^      <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>$/;"	c
+Click	src/shared/components/Navigation/MainNavigation.js	/^      {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} \/>}$/;"	c
+Click	src/shared/components/Navigation/SideDrawer.js	/^      <aside className="side-drawer" onClick={props.onClick}>$/;"	c
+Click	src/shared/components/UIElements/Backdrop.js	/^    <div className="backdrop" onClick={props.onClick}><\/div>,$/;"	c
+Click	src/shared/components/UIElements/Modal.js	/^      {props.show && <Backdrop onClick={props.onCancel} \/>}$/;"	c
+Click	src/user/pages/Auth.js	/^      <Button inverse onClick={switchModeHandler}>$/;"	c
+Count	src/user/components/UsersList.js	/^          placeCount={user.places}$/;"	c
+DeleteHandler	src/places/components/PlaceItem.js	/^  const confirmDeleteHandler = () => {$/;"	c
+DeleteWarningHandler	src/places/components/PlaceItem.js	/^  const cancelDeleteWarningHandler = () => {$/;"	c
+DeleteWarningHandler	src/places/components/PlaceItem.js	/^  const showDeleteWarningHandler = () => {$/;"	c
+DrawerHandler	src/shared/components/Navigation/MainNavigation.js	/^  const closeDrawerHandler = () => {$/;"	c
+DrawerHandler	src/shared/components/Navigation/MainNavigation.js	/^  const openDrawerHandler = () => {$/;"	c
+For	src/shared/components/FormElements/Input.js	/^      <label htmlFor={props.id}>{props.label}<\/label>$/;"	c
+Form	src/shared/hooks/form-hook.js	/^export const useForm = (initialInputs, initialFormValidity) => {$/;"	c
+FormData	src/shared/hooks/form-hook.js	/^  const setFormData = useCallback((inputData, formValidity) => {$/;"	c
+Handler	src/shared/components/FormElements/Input.js	/^  const touchHandler = () => {$/;"	c
+Handler	src/shared/hooks/form-hook.js	/^  const inputHandler = useCallback((id, value, isValid) => {$/;"	c
+Id	src/places/components/PlaceList.js	/^          creatorId={place.creator}$/;"	c
+Id	src/places/pages/UpdatedPlace.js	/^  const placeId = useParams().placeId;$/;"	c
+Id	src/places/pages/UserPlaces.js	/^  const userId = useParams().userId;$/;"	c
+Input	src/places/pages/NewPlace.js	/^        onInput={inputHandler}$/;"	c
+Input	src/places/pages/UpdatedPlace.js	/^        onInput={inputHandler}$/;"	c
+Input	src/user/pages/Auth.js	/^            onInput={inputHandler}$/;"	c
+Input	src/user/pages/Auth.js	/^          onInput={inputHandler}$/;"	c
+IsValid	src/places/pages/UpdatedPlace.js	/^        initialIsValid={formState.inputs.description.isValid}$/;"	c
+IsValid	src/places/pages/UpdatedPlace.js	/^        initialIsValid={formState.inputs.title.isValid}$/;"	c
+MapHandler	src/places/components/PlaceItem.js	/^  const closeMapHandler = () => {$/;"	c
+MapHandler	src/places/components/PlaceItem.js	/^  const openMapHandler = () => {$/;"	c
+ModeHandler	src/user/pages/Auth.js	/^  const switchModeHandler = () => {$/;"	c
+Name	src/shared/components/FormElements/Button.js	/^        className={`button button--${props.danger && "button--danger"}`}>$/;"	c
+Name	src/shared/components/FormElements/Button.js	/^        className={`button button--${props.size || "default"} ${props.inverse &&$/;"	c
+Name	src/shared/components/FormElements/Button.js	/^      className={`button button--${props.size || "default"} ${props.inverse &&$/;"	c
+Name	src/shared/components/FormElements/Input.js	/^      className={`form-control ${!inputState.isValid &&$/;"	c
+Name	src/shared/components/UIElements/Avatar.js	/^    <div className={`avatar ${props.className}`} style={props.style}>$/;"	c
+Name	src/shared/components/UIElements/Card.js	/^    <div className={`card ${props.className}`} style={props.style}>$/;"	c
+Name	src/shared/components/UIElements/Map.js	/^      className={`map ${props.className}`}$/;"	c
+Name	src/shared/components/UIElements/Modal.js	/^        <div className={`modal__content ${props.contentClass}`}>$/;"	c
+Name	src/shared/components/UIElements/Modal.js	/^        <footer className={`modal__footer ${props.footerClass}`}>$/;"	c
+Name	src/shared/components/UIElements/Modal.js	/^      <header className={`modal__header ${props.headerClass}`}>$/;"	c
+Name	src/shared/components/UIElements/Modal.js	/^    <div className={`modal ${props.className}`} style={props.style}>$/;"	c
+NewPlace	src/places/pages/NewPlace.js	/^const NewPlace = () => {$/;"	c
+Reducer	src/shared/components/FormElements/Input.js	/^const inputReducer = (state, action) => {$/;"	c
+Reducer	src/shared/hooks/form-hook.js	/^const formReducer = (state, action) => {$/;"	c
+Ref	src/shared/components/UIElements/Map.js	/^  const mapRef = useRef();$/;"	c
+Submit	src/places/pages/NewPlace.js	/^    <form className="place-form" onSubmit={placeSubmitHandler}>$/;"	c
+Submit	src/places/pages/UpdatedPlace.js	/^    <form className="place-form" onSubmit={placeUpdateSubmitHandler}>$/;"	c
+Submit	src/shared/components/UIElements/Modal.js	/^        onSubmit={props.onSubmit ? props.onSubmit : e => e.preventDefault()}>$/;"	c
+Submit	src/user/pages/Auth.js	/^      <form onSubmit={authSubmitHandler}>$/;"	c
+UpdatePlace	src/places/pages/UpdatedPlace.js	/^const UpdatePlace = () => {$/;"	c
+UserPlaces	src/places/pages/UserPlaces.js	/^const UserPlaces = () => {$/;"	c
+Users	src/user/pages/Users.js	/^const Users = () => {$/;"	c
+VALIDATOR_EMAIL	src/shared/util/validators.js	/^export const VALIDATOR_EMAIL = () => ({ type: VALIDATOR_TYPE_EMAIL });$/;"	c
+VALIDATOR_EMAIL	src/shared/util/validators.js	/^export const VALIDATOR_EMAIL = () => ({ type: VALIDATOR_TYPE_EMAIL });$/;"	v
+VALIDATOR_FILE	src/shared/util/validators.js	/^export const VALIDATOR_FILE = () => ({ type: VALIDATOR_TYPE_FILE });$/;"	c
+VALIDATOR_FILE	src/shared/util/validators.js	/^export const VALIDATOR_FILE = () => ({ type: VALIDATOR_TYPE_FILE });$/;"	v
+VALIDATOR_MAX	src/shared/util/validators.js	/^export const VALIDATOR_MAX = val => ({ type: VALIDATOR_TYPE_MAX, val: val });$/;"	v
+VALIDATOR_MAXLENGTH	src/shared/util/validators.js	/^export const VALIDATOR_MAXLENGTH = val => ({$/;"	v
+VALIDATOR_MIN	src/shared/util/validators.js	/^export const VALIDATOR_MIN = val => ({ type: VALIDATOR_TYPE_MIN, val: val });$/;"	v
+VALIDATOR_MINLENGTH	src/shared/util/validators.js	/^export const VALIDATOR_MINLENGTH = val => ({$/;"	v
+VALIDATOR_REQUIRE	src/shared/util/validators.js	/^export const VALIDATOR_REQUIRE = () => ({ type: VALIDATOR_TYPE_REQUIRE });$/;"	c
+VALIDATOR_REQUIRE	src/shared/util/validators.js	/^export const VALIDATOR_REQUIRE = () => ({ type: VALIDATOR_TYPE_REQUIRE });$/;"	v
+Valid	src/shared/components/FormElements/Input.js	/^        isValid: validate(action.val, action.validators)$/;"	c
+Value	src/places/pages/UpdatedPlace.js	/^        initialValue={formState.inputs.description.value}$/;"	c
+Value	src/places/pages/UpdatedPlace.js	/^        initialValue={formState.inputs.title.value}$/;"	c
+useForm	src/shared/hooks/form-hook.js	/^export const useForm = (initialInputs, initialFormValidity) => {$/;"	v
+validate	src/shared/util/validators.js	/^export const validate = (value, validators) => {$/;"	v
