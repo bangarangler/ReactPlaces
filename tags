@@ -12,8 +12,8 @@ Blur	src/shared/components/FormElements/Input.js	/^        onBlur={touchHandler}
 Cancel	src/places/components/PlaceItem.js	/^        onCancel={cancelDeleteWarningHandler}$/;"	c
 Cancel	src/places/components/PlaceItem.js	/^        onCancel={closeMapHandler}$/;"	c
 Change	src/shared/components/FormElements/Input.js	/^        onChange={changeHandler}$/;"	c
+Click	src/places/components/PlaceItem.js	/^              <Button danger onClick={showDeleteWarningHandler}>$/;"	c
 Click	src/places/components/PlaceItem.js	/^            <Button danger onClick={confirmDeleteHandler}>$/;"	c
-Click	src/places/components/PlaceItem.js	/^            <Button danger onClick={showDeleteWarningHandler}>$/;"	c
 Click	src/places/components/PlaceItem.js	/^            <Button inverse onClick={cancelDeleteWarningHandler}>$/;"	c
 Click	src/places/components/PlaceItem.js	/^            <Button inverse onClick={openMapHandler}>$/;"	c
 Click	src/places/components/PlaceItem.js	/^        footer={<Button onClick={closeMapHandler}>CLOSE<\/Button>}>$/;"	c
@@ -21,6 +21,7 @@ Click	src/shared/components/FormElements/Button.js	/^      onClick={props.onClic
 Click	src/shared/components/Navigation/MainNavigation.js	/^          onClick={openDrawerHandler}>$/;"	c
 Click	src/shared/components/Navigation/MainNavigation.js	/^      <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>$/;"	c
 Click	src/shared/components/Navigation/MainNavigation.js	/^      {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} \/>}$/;"	c
+Click	src/shared/components/Navigation/NavLinks.js	/^          <button onClick={auth.logout}>LOGOUT<\/button>$/;"	c
 Click	src/shared/components/Navigation/SideDrawer.js	/^      <aside className="side-drawer" onClick={props.onClick}>$/;"	c
 Click	src/shared/components/UIElements/Backdrop.js	/^    <div className="backdrop" onClick={props.onClick}><\/div>,$/;"	c
 Click	src/shared/components/UIElements/Modal.js	/^      {props.show && <Backdrop onClick={props.onCancel} \/>}$/;"	c
